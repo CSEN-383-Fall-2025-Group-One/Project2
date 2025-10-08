@@ -26,6 +26,4 @@ int main()
         fprintf(fptr, "<%d, %d, %d>\n", arrival_time, service_time, priority); //Write job to file
     }
     fclose(fptr); //closes the file
-    return;
-
 }
